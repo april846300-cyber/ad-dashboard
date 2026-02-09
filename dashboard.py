@@ -47,7 +47,7 @@ st.title("전체 광고 현황 정리")
 # ======================
 # 캠페인 월 KPI 분석
 # ======================
-st.subheader("캠페인별 월 KPI 추이 분석")
+st.subheader("캠페인별 월 KPI 추이")
 
 campaign = st.selectbox("캠페인 선택", monthly['캠페인'].unique())
 
